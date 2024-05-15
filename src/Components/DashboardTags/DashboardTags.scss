@@ -1,0 +1,26 @@
+.tag-filter {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 18px;
+  border: 1px solid #CFCFE4;
+  padding: 12px;
+}
+
+.tag {
+  padding: 12px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  font-weight: 800;
+}
+
+.tag.selected {
+  background-color: #5FBF77;
+  color: white;
+}
